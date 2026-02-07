@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ashley</title>
+    <style>
+        *{
+                margin: 0;
+                padding: 0;
+                box-sizing : border-box;
+        }
+        body{
+            background: linear-gradient(pink, red);
+            height: 100vh;
+            display: flex;
+            align-items:center;
+            justify-content: center;
+        }
+        .container{
+            display:flex;
+            flex-direction: column;
+            width: 200px;
+            padding: 15px;
+            border: 1px solid
+            skyblue;
+            border-radius: 5px;
+
+        }
+            button{
+                    width: 70px;                
+                    padding: 1px;
+                    border: 3px solid
+                    skyblue;
+                    border-radius: 10px;
+
+
+            }
+
+            button:hover{
+                background-color: pink;
+
+            }
+    
+
+    </style>
+</head>
+<body>
+    <form>
+
+               <h1> Hi cupcake  :]  </h1>
+                    <br>
+                    <br>
+           <div class="container">
+             <label for="Password"> Password Please ma'am</label>
+             <br>
+
+             <div class="password_user">
+            <input type="password" id="password" placeholder="4 digits">
+            
+            </div>
+
+    
+    
+            <br><input type="button" onclick="login()" id="submit" Value="Check :p">
+
+<audio controls loop autoplay>
+       <source src="Mission Impossible Theme Song  EPIC VERSION (Dead Reckoning Soundtrack).mp3" >
+        </audio>
+<style>
+    audio{
+
+    position:absolute;
+        top: 50px;
+        left:100px;
+    }
+    </style>
+<script>
+
+    function login () {
+    
+    let password= document.getElementById("password").value;
+
+
+    let password2="9041";
+
+
+ if (password === password2) {
+
+    window.location= "indexx.html"
+ } else {
+   alert("HAHA YOU BIG NOOB, maybe try backwards ?");
+
+ }
+
+} 
+    </script>
+</body>
+</html>

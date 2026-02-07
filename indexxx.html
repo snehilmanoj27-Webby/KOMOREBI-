@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=H, initial-scale=1.0">
+    <title>Will you ?</title>
+
+</head>
+<style>
+
+  .onebutton{
+        display:flex;
+        justify-content: center;
+        padding: 6px 24px;
+        height:auto;
+        width:auto;
+        max-width: 100px;
+        position:absolute;
+        top: 400px;
+        left: 400px;
+        
+    }
+      .twobutton{
+        display:flex;
+        justify-content: center;
+        padding: 6px 24px;
+        height:auto;
+        width:auto;
+        max-width: 100px;
+        position:absolute;
+        top: 400px;
+        left: 800px;
+        
+    }
+        body { 
+             background-image: url("images/Will\ You\ Be\ My\ Valentine\ .jpg");
+             background-size: cover;
+             min-height: 100vh;
+             position: relative;
+             
+        }
+    .corner-gif {
+        position:absolute;
+        width: 150px;
+        height: auto;
+        z-index: 5px;
+    }
+    
+    .top-left {
+        top: 0px;
+        left: 0px;
+
+    }
+
+    .top-right {
+        top: 10px;
+        right: 10px
+
+    }
+
+    .bottom-right {
+        bottom: 10px;
+        right: 10px;
+        display:block;
+        width: 300px;
+        height: auto;
+    }
+   .separatebutton{
+
+            position:absolute;
+            bottom:-10px;
+            left:50px;
+
+
+    }
+    </style>
+<body>
+    
+ 
+    <img src="images/floating hearts.gif" class="corner-gif top-right" alt="GIF">
+    <img src="images/floating hearts.gif" class="corner-gif top-left" alt ="GIF">
+    <img src="images/Cute- bearHeart-Gif.webp" class="corner-gif bottom-right" alt="GIF">
+
+    <button type="button" class="separatebutton" onclick="document.location='https://www.youtube.com/watch?v=EE-xtCF3T94'" >Secret</button>
+
+
+<div class="onebutton">
+        <button type="button" onclick="handleYes()">YES</button>
+</div>
+<div class="twobutton">
+        <button type="button" onclick="handleNo()">NO</button>
+</div>
+</div>
+
+    </style>
+    <script>
+        function handleNo() {
+            alert("Do I get a second chance ? bottom left for a secret");
+            
+            window.location="indexxx.html"
+
+
+        }
+
+
+        function handleYes() {
+            alert("AM I NOT THE LUCKIEST GUY");
+            
+            window.location="indexxxx.html";
+
+
+        }
+
+    </script>
+</body>
+</html>
